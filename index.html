@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>OpenFood Finder</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+<body>
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">TDIA-2</p>
+  </div>
+
+
+  <header class="header" data-header>
+    <div class="container">
+      <nav class="navbar" data-navbar>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+           <li class="navbar-item">
+            <a href="#service" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Description</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">SmartFood Recommender</span>
+            </a>
+          </li>
+        </ul>
+
+
+      </nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">AI Food Advisor</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              SmartFood Recommender <br>
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Open Food Facts
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">🔍 Trouver des produits adaptés</span>
+
+              <span class="text text-2" aria-hidden="true">🔍 Trouver des produits adaptés</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">AI Food Advisor</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Votre assistant nutritionnel intelligent <br>
+
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Open Food Facts
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">🔍 Trouver des produits adaptés</span>
+
+              <span class="text text-2" aria-hidden="true">🔍 Trouver des produits adaptés</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">AI Food Advisor</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              De la recette <br>
+              aux bons produits
+
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Open Food Facts
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">🔍 Trouver des produits adaptés</span>
+
+              <span class="text text-2" aria-hidden="true">🔍 Trouver des produits adaptés</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">TDIA-2</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <section class="section service bg-black-10 text-center" aria-label="service" id = "service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">SmartFood Recommender</p>
+
+          <h2 class="headline-1 section-title">Description</h2>
+
+          <p class="section-text">
+            SmartFood Recommender est une application web intelligente qui vous aide à trouver les meilleurs produits alimentaires pour réaliser vos recettes. En entrant une description ou une liste d’ingrédients, ainsi que vos préférences nutritionnelles (Nutri-Score, allergies, pays, etc.), l’application vous recommande des produits sains et adaptés à vos besoins à partir de la base de données Open Food Facts.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/Basilic.jpeg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/tomato.jpeg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/salt.jpeg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">AI Food Advisor</p>
+
+            <h2 class="headline-1 section-title">Trouvez les meilleurs produits pour vos recettes</h2>
+
+
+          </div>
+
+          <figure class="about-banner">
+
+
+          </figure>
+          <div style="width: 100%; max-width: 800px; margin: 0 auto; padding: 0;">
+            <label for="inputText" style="display: block; font-size: 18px; color: white; margin-bottom: 10px;">
+              Veuillez insérer tes ingrédients dans la recette :
+            </label>
+
+            <textarea
+              id="inputText"
+              rows="10"
+              style="width: 50vw; height: 90px; font-size: 16px; padding: 10px; box-sizing: border-box; background: #ccbaba; color: #000; border: none;"
+              placeholder="Écris ici...">
+            </textarea>
+
+            <div class="dropdown-container">
+              <div class="dropdown-container">
+                <div class="dropdown" id="countryDropdown">
+                  <button class="dropdown__button">
+                    <i class="ri-earth-line dropdown__icon"></i>
+                    <span class="dropdown__name">Pays</span>
+                    <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </button>
+                  <ul class="dropdown__menu">
+                    <li class="dropdown__item" data-value="France">France</li>
+                    <li class="dropdown__item" data-value="Spain">Spain</li>
+                    <li class="dropdown__item" data-value="Italy">Italy</li>
+                  </ul>
+
+                </div>
+
+                <div class="dropdown" id="nutriscoreDropdown">
+                  <button class="dropdown__button">
+                    <i class="ri-translate dropdown__icon"></i>
+                    <span class="dropdown__name">nutriscore</span>
+                    <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </button>
+                  <ul class="dropdown__menu">
+                    <li class="dropdown__item" data-value="A">A</li>
+                    <li class="dropdown__item" data-value="B">B</li>
+                    <li class="dropdown__item" data-value="C">C</li>
+                    <li class="dropdown__item" data-value="D">D</li>
+                    <li class="dropdown__item" data-value="E">E</li>
+                  </ul>
+                </div>
+
+                <div class="dropdown" id="novaGroupDropdown">
+                  <button class="dropdown__button">
+                    <i class="ri-palette-line dropdown__icon"></i>
+                    <span class="dropdown__name">nova_group</span>
+                    <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </button>
+                  <ul class="dropdown__menu">
+                    <li class="dropdown__item" data-value="1">1</li>
+                    <li class="dropdown__item" data-value="2">2</li>
+                    <li class="dropdown__item" data-value="3">3</li>
+                    <li class="dropdown__item" data-value="4">4</li>
+                  </ul>
+                </div>
+                </div>
+            </div>
+            <a class="btn btn-secondary" onclick="envoyerRequete()">
+              <span class="text text-1">Recommander</span>
+              <span class="text text-2" aria-hidden="true">Recommander</span>
+            </a>
+
+            <div id="recommendation-output" style="margin-top: 40px; padding: 20px; background-color: #222; border-radius: 8px; color: white;">
+                </div>
+
+          </div>
+          <a href="#" style="display: inline-block;">
+            <figure style="width: 285px; height: 336px; background: transparent;">
+              <img src="./assets/images/shape-3.png" width="285" height="336" alt="Basilic"
+                   style="display: block; width: 100%; height: auto; background: transparent;" />
+              <figcaption style="color: white; text-align: center; margin-top: 8px;"></figcaption>
+            </figure>
+          </a>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+      </section>
+
+
+      <script>
+        // Fonction pour obtenir la valeur sélectionnée d'un dropdown par son ID
+        function getSelectedDropdownValueById(id) {
+          const dropdownElement = document.getElementById(id);
+          if (dropdownElement) {
+            const buttonText = dropdownElement.querySelector('.dropdown__name');
+            return buttonText ? buttonText.textContent.trim() : '';
+          }
+          return '';
+        }
+
+        function envoyerRequete() {
+          const ingredients = document.getElementById('inputText').value.trim();
+          const pays = getSelectedDropdownValueById('countryDropdown');
+          const nutriscore = getSelectedDropdownValueById('nutriscoreDropdown');
+          const novaGroup = getSelectedDropdownValueById('novaGroupDropdown');
+
+          const data = {
+            ingredients: ingredients,
+            country: pays,
+            nutriscore: nutriscore,
+            nova_group: novaGroup
+          };
+
+          // Afficher un message de chargement
+          const outputDiv = document.getElementById('recommendation-output');
+          outputDiv.innerHTML = '<p>Chargement des recommandations...</p>';
+          outputDiv.style.display = 'block'; // Assurez-vous qu'il est visible
+
+          fetch('http://localhost:5000/recommend', { // CHANGEZ CETTE URL LORS DU DÉPLOIEMENT
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+          })
+          .then(response => {
+            if (!response.ok) {
+                // Si la réponse n'est pas OK (par exemple, 404, 500), jetez une erreur
+                return response.json().then(errorData => {
+                    throw new Error(errorData.message || 'Erreur réseau ou serveur.');
+                });
+            }
+            return response.json();
+          })
+          // ----------------------------------------------------------------------------------------
+                    .then(result => {
+              const outputDiv = document.getElementById('recommendation-output');
+              outputDiv.style.display = 'block'; // S'assurer que le bloc d'affichage est visible
+
+              if (result && result.recommendations && result.recommendations.length > 0) {
+                  let htmlOutput = '<h3>Produits Recommandés :</h3>';
+                  htmlOutput += '<div class="table-responsive">'; // Ajout d'une div pour le défilement si le tableau est large
+                  htmlOutput += '<table class="recommendation-table">'; // Classe pour styliser le tableau
+                  htmlOutput += '<thead>';
+                  htmlOutput += '<tr>';
+                  htmlOutput += '<th>Nom du Produit</th>';
+                  htmlOutput += '<th>Marque</th>';
+                  htmlOutput += '<th>Nutri-Score</th>';
+                  htmlOutput += '<th>Nova Group</th>';
+                  htmlOutput += '<th>Ingrédient Matched</th>'; // Nouvelle colonne pour l'ingrédient qui a matché
+                  htmlOutput += '</tr>';
+                  htmlOutput += '</thead>';
+                  htmlOutput += '<tbody>';
+
+                  result.recommendations.forEach(product => {
+                      htmlOutput += '<tr>';
+                      htmlOutput += `<td><strong>${product.product_name || 'N/A'}</strong></td>`;
+                      htmlOutput += `<td>${product.brands || 'N/A'}</td>`;
+                      htmlOutput += `<td>${product.nutriscore_grade || 'N/A'}</td>`;
+                      htmlOutput += `<td>${product.nova_group || 'N/A'}</td>`;
+                      // Assurez-vous que 'matched_ingredient' est bien envoyé par le backend
+                      htmlOutput += `<td>${product.matched_ingredient || 'N/A'}</td>`;
+                      htmlOutput += '</tr>';
+                  });
+
+                  htmlOutput += '</tbody>';
+                  htmlOutput += '</table>';
+                  htmlOutput += '</div>'; // Fermeture de la div table-responsive
+
+                  outputDiv.innerHTML = htmlOutput;
+              } else {
+                  outputDiv.innerHTML = '<p>Aucun produit recommandé trouvé pour ces critères.</p>';
+              }
+          })
+          .catch(error => {
+              console.error('Erreur lors de l’envoi ou du traitement :', error);
+              const outputDiv = document.getElementById('recommendation-output');
+              outputDiv.innerHTML = `<p style="color: red;">Erreur : ${error.message || 'Impossible de récupérer les recommandations. Vérifiez l\'URL du backend.'}</p>`;
+              outputDiv.style.display = 'block'; // S'assurer que le bloc d'affichage est visible en cas d'erreur
+          }) }
+        // -----------------------------------------------------------------------------------------------------------
+      </script>
+      <script>
+        // Logique pour ouvrir/fermer les dropdowns et sélectionner les items
+        document.querySelectorAll('.dropdown__button').forEach(button => {
+          button.addEventListener('click', () => {
+            const dropdownMenu = button.nextElementSibling; // Le ul.dropdown__menu
+            dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+          });
+        });
+
+        document.querySelectorAll('.dropdown__item').forEach(item => {
+          item.addEventListener('click', function() {
+            const dropdown = this.closest('.dropdown');
+            const buttonText = dropdown.querySelector('.dropdown__name');
+            const value = this.getAttribute('data-value') || this.textContent.trim(); // Utilise data-value ou textContent
+            if (buttonText) {
+              buttonText.textContent = value;
+            }
+            // Cacher le menu après la sélection
+            this.closest('.dropdown__menu').style.display = 'none';
+          });
+        });
+
+        // Cacher les menus déroulants si l'on clique à l'extérieur
+        document.addEventListener('click', (event) => {
+          if (!event.target.closest('.dropdown')) {
+            document.querySelectorAll('.dropdown__menu').forEach(menu => {
+              menu.style.display = 'none';
+            });
+          }
+        });
+      </script>
+
+
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
